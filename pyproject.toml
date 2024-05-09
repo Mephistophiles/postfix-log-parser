@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lognormalizer"
+version = "0.1.0"
+description = "Postfix log normalizer"
+authors = ["Maxim Zhukov <mussitantesmortem@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+clickhouse-connect = "^0.7.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
